@@ -18,6 +18,7 @@ Text Domain:  accelerate-theme-child
 .home-page {
   background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover
     rgba(0, 0, 0, 0);
+    margin-bottom: 20px;
 }
 
 /* nav bar color */
@@ -41,6 +42,7 @@ Text Domain:  accelerate-theme-child
 .featured-work .site-content h3 {
   width: 100%;
   text-align: center;
+  margin: 20px 0 40px;
 }
 
 .featured-work .site-content .content {
@@ -73,12 +75,43 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
+/* social icons styles  */
+
+.social-media-navigation span {
+  display: none;
+}
+
+ .social-media-menu {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.menu-item i._mi {
+  font-size: 2em;
+  border: gray 1px solid;
+  border-radius: 50%;
+  color: white;
+  background: gray;
+  padding: 5%;
+}
+
+
+/***** case studies archive *****/
+
+div.content-photos img {
+	width: 100%;
+	height: auto;
+}
+
 /***** case studies page *****/
 
 .main-content .case-study {
   display: flex;
   flex-flow: row wrap; 
-  justify-content: space-between 
+  justify-content: space-between;
+  margin-bottom: 50px; 
 }
 
 .case-study .case-study-sidebar {
